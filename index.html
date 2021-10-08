@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Upload Images</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">JS Upload Images</a>
+    </nav>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>Upload Images</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form id="Forms" enctype="multipart/form-data">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">Choose File</label>
+                            </div>
+                            <div>
+                                <button class="btn btn-success btn-sm mt-3" id="uploads">Uplaod</button>
+                            </div>
+                        </form>
+                        <div>
+                            <button class="btn btn-warning btn-sm" id="removes">Remove All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="rows">
+            
+        </div>
+    </div>
+    
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+    <script src="imageupload.js"></script>
+</body>
+</html>

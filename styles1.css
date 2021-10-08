@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(118, 134, 187, 0.699);
+}
+#card1{
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-fluid{
+    border-radius: 10px;
+    
+}
+.bg-dark{
+    background: linear-gradient(45deg,coral,lightblue,darkgreen);
+}
